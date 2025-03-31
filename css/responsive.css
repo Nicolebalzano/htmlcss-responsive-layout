@@ -1,0 +1,36 @@
+/* Soluzione qui */
+/* TABLET */
+@media screen and (min-width: 768px) {
+    #topbar {
+        justify-content: flex-start;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    .quick-notes ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .quick-notes li {
+        width: calc(100% / 3);
+    }
+    .social-networks .btn {
+        padding: 10px 50px;
+    }
+    .ads {
+        display: block;
+    }
+    .clearfix img {
+        float: left;
+        padding-right: 15px;
+    }
+    .recipe-name {
+        display: flex;
+    }
+    .recipe-origin {
+        display: block;
+        padding-left: 5px;
+    }
+}
