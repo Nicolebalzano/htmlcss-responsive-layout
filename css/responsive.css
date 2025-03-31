@@ -3,7 +3,7 @@
 @media screen and (min-width: 768px) {
     #topbar {
         justify-content: flex-start;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .container {
@@ -25,7 +25,7 @@
     }
     .clearfix img {
         float: left;
-        padding-right: 15px;
+        margin-right: 15px;
     }
     .recipe-name {
         display: flex;
@@ -37,7 +37,7 @@
 }
 @media screen and (min-width:992px){
     #topbar {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .recipe-card {
         display: flex;
@@ -64,5 +64,14 @@
     footer {
         display: flex;
   justify-content: space-between;
+    }
+}
+@media screen and (min-width:576px){
+    .clearfix img {
+        float: left;
+        margin-right: 15px;
+    }
+    .social-networks .btn {
+        padding: 10px 40px;
     }
 }
